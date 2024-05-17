@@ -1,0 +1,240 @@
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.shar-text {
+  color: #f8ba1b;
+}
+.shar {
+background-color: #f8ba1b;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-nav{
+  padding-left: 64px;
+  padding-right: 64px;
+}
+.text-black{
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.text-gray{
+  color: rgb(156 163 175);
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  font-weight: 400;
+}
+.menu{
+  flex-direction: row; 
+  gap: 32px; 
+  text-align: center;
+  height: 56px;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.hero div{
+  aspect-ratio: 8 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+}
+.container{
+  margin: 64px;
+}
+.title1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title1 a{
+  font-size: 18px;
+  color: #f8ba1b;
+  text-decoration: none;
+}
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.shop-img{
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(229 231 235);
+}
+.shop-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.shop-text{
+  padding-bottom: 16px;
+  padding-top: 24px;
+  text-align: center;
+}
+.shop-text a{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+.shop-text svg{
+  color: rgb(250 204 21);
+  height: 20px;
+  width: 20px;
+  flex-shrink: 0;
+}
+.shop-text div{
+  margin-top: 8px;
+}
+.shop-text p{
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.about{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+.title2{
+padding-top: 40px;
+padding-bottom: 40px;
+font-size: 30px;
+font-weight: 600;
+color: black;
+text-align: center;
+}
+.about a{
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about img{
+  height: 220px;
+  width: 220px;
+  border-radius: 999px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about h3 {
+  margin-top: 12px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.banner{
+  border-radius: 8px;
+  overflow: hidden;
+}
+.banner img{
+  width: 100%;
+  border-radius: 8px;
+}
+.service{
+  padding: 16px;
+  text-align: center;
+  margin-top: 8px;
+  border-radius: 8px;
+  color: white;
+}
+.service h6{
+  font-size: 18px;
+  margin: 0;
+}
+.grid-4 a {
+  text-decoration: none;
+}
+.grid-3 a{
+  text-decoration: none;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.events {
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.events img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.grid-3 h6{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+}
+.grid-3 p{
+  color: rgb(107 114 128);
+  padding-top: 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+.teams{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  text-align: center;
+}
+.teams img{
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+}
+.footer{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  color: black;
+  border-top: 1px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(222, 224, 227);
+  border-style: solid;
+}
